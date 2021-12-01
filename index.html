@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Your Mobile</title>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="logo logo-text">
+            Your Logo
+        </div>
+
+        <div class="container">
+            <div class="content">
+                <header class="header">
+                    <div class="header__text">
+                        <p>Sign in to</p>
+                        <h1>Lorem, ipsum is simply.</h1>
+                        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, expedita! Lorem ipsum
+                            dolor
+                            sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, delectus. Lorem
+                            ipsum dolor sit, amet consectetur adipisicing elit. Nostrum, ullam!</h2>
+                    </div>
+                    <div class="header__img">
+                        <img src="./img/saly-1.svg" alt="saly" class="saly">
+                    </div>
+                </header>
+
+
+                <section class="login-as">
+                    <h3 class="login-as__title">Login as</h3>
+
+                    <div class="login-as__holder">
+                        <div class="login-as__card card">
+                            <img class="card__remove" src="./img/x-mark.png" alt="cross icon">
+                            <div class="card__content">
+                                <img src="./img/man.png" alt="profile image" class="card__img">
+                                <p class="card__user-name">John peter</p>
+                                <p class="card__date-active">
+                                    Active 1 days ago
+                                </p>
+                            </div>
+                        </div>
+                        <div class="login-as__card card">
+                            <img class="card__remove" src="./img/x-mark.png" alt="cross icon">
+                            <div class="card__content">
+                                <img src="./img/woman.png" alt="profile image" class="card__img">
+                                <p class="card__user-name">John peter</p>
+                                <p class="card__date-active">
+                                    Active 4 days ago
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <section class="sign-in-up">
+                <form action="#" class="sign signin" id="login">
+                    <div class="sign__intro">
+                        <div class="sign__text">
+                            <h3>Welcome to <span>LOREM</span></h3>
+                            <h4>Sign in</h4>
+                        </div>
+                        <div class="sign__no-account">
+                            <a href="./" id="linkCreateAccount">No Account? <span>Sign up</span></a>
+                        </div>
+                    </div>
+
+                    <div class="singin__via via">
+                        <div class="via__btn">
+                            <a href="#" class="via__google via--focus">
+                                <img src="./img/google.svg" alt="">
+                                Sign in with Google
+                            </a>
+                            <a href="#" class="via__facebook">
+                                <img src="./img/facebook.svg" alt="facebook icon">
+                            </a>
+                            <a href="#" class="via__apple">
+                                <img src="./img/apple.svg" alt="apple icon">
+                            </a>
+                        </div>
+
+                        <div class="via__username username">
+                            Enter your username or email address
+                            <input type="mail" name='login_username' placeholder="Username or email address" required>
+                        </div>
+
+                        <div class="via__password password">
+                            Enter your Password
+                            <input type="password" placeholder="Password" name="login_password"required>
+                            <div class="forgot-password">
+                                <a href="#">Forgot Password</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-sign-in btn-sing-up">
+                        Sign in
+                    </button>
+                </form>
+
+                <form action="#" class="sign signup form--hidden" id="registration">
+                    <div class="sign__intro">
+                        <div class="sign__text">
+                            <h3>Welcome to <span>LOREM</span></h3>
+                            <h4>Sign up</h4>
+                        </div>
+                        <div class="sign__no-account">
+                            <a href="./" id="linkLogin">Have an account?<span>Sign in</span></a>
+                        </div>
+                    </div>
+
+                    <div class="signup">
+                        <div class="signup__username username">
+                            Enter your username or email address
+                            <input type="email" id="email_input" placeholder="Username or email address" name="signupUsernamemail"
+                                required>
+                        </div>
+
+                        <div class="signup__user user">
+                            <div class="user__name">
+                                User name
+                                <input type="text" placeholder="User name" name="uname" required>
+                            </div>
+                            <div class="user__tel">
+                                Contact Number
+                                <input type="text" placeholder="Contact Number" name="user_tel" required>
+                            </div>
+                        </div>
+
+                        <div class="signup__password password">
+                            Enter your Password
+                            <input type="password" name="user_password" placeholder="Password" required>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn" id="btn-sign-up">
+                        Sign up
+                    </button>
+                </form>
+
+            </section>
+        </div>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- <script src="js/app.js"></script> -->
+    <script src="js/jquery.js"></script>
+</body>
+
+</html>
